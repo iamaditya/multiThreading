@@ -29,8 +29,42 @@ To run the code from this project, follow these steps:
 4. Build the project to compile the Java source files.
 
 ## Usage
+To understand and observe the Producer-Consumer problem implemented using thread synchronization, you can follow these steps:
 
+1. Clone the repository to your local machine using the following command:
 
+   ```shell
+   git clone https://github.com/your-username/MultiThreading-in-Java.git
+
+2. Navigate to the ProducerConsumerProblem directory:
+
+    ```shell
+    cd MultiThreading-in-Java/ProducerConsumerProblem
+
+3. Open the project in your preferred Java Integrated Development Environment (IDE).
+
+4. Review the code in the following Java files:
+
+    1. Company.java: Defines the Company class responsible for producing and consuming items. It includes the produced_items() and consumed_items() methods.
+    2. Producer.java: Extends the Thread class and represents the producer thread. It interacts with the Company object by calling the produced_items() method.
+    3. Consumer.java: Extends the Thread class and represents the consumer thread. It interacts with the Company object by calling the consumed_items() method.
+    4. Main.java: Contains the main method, which initializes the Company object and starts the producer and consumer threads.
+
+5. Run the Main.java file to observe the behavior of the producer and consumer threads. This will start an infinite loop where items are produced and consumed. The produced and consumed item numbers will be printed to the console.
+
+    ```shell
+    javac Main.java
+    java Main
+
+You will see the output similar to the following:
+
+    ```shell
+    Produced Item: 1
+    Consumed Item: 1
+    Produced Item: 2
+    Consumed Item: 2
+    ... 
+```
 ## Examples
 
 Here's an example of creating a simple thread using the Runnable interface:
