@@ -64,7 +64,8 @@ You will see the output similar to the following:
     Produced Item: 2
     Consumed Item: 2
     ... 
-    
+
+*Note: You can stop the program by pressing Ctrl + C in the console.*  
 
 
 ## Examples
