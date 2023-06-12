@@ -57,7 +57,8 @@ To understand and observe the Producer-Consumer problem implemented using thread
     java Main
 
 You will see the output similar to the following:
-    ```shell
+
+
     Produced Item: 1
     Consumed Item: 1
     Produced Item: 2
