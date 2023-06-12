@@ -35,7 +35,6 @@ To run the code from this project, follow these steps:
 
 Here's an example of creating a simple thread using the Runnable interface:
 
-    ```shell
     public class MyRunnable implements Runnable {
     public void run() {
         // Code to be executed in the thread
@@ -49,7 +48,6 @@ Here's an example of creating a simple thread using the Runnable interface:
             thread.start();
         }
     }   
-    ```
 
 For more examples and detailed explanations, refer to the source code files within each package.
 
