@@ -57,14 +57,15 @@ To understand and observe the Producer-Consumer problem implemented using thread
     java Main
 
 You will see the output similar to the following:
-
     ```shell
     Produced Item: 1
     Consumed Item: 1
     Produced Item: 2
     Consumed Item: 2
     ... 
-```
+    
+
+
 ## Examples
 
 Here's an example of creating a simple thread using the Runnable interface:
